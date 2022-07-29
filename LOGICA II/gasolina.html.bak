@@ -1,0 +1,34 @@
+<!-- bandeiras.html -->
+
+<canvas width="600" height="400"></canvas>
+
+<script>
+alert("Bem vindos a calculadora de combustives!!!") 
+alert("Vamos verificar qual combustivel vale mais a pena na hora de abastecer ou se tanto faz qual vai ser a opção.") 
+alert("Para isso iremos precisar de duas informações:") 
+
+var gasolina = parseFloat(prompt("Primeiro digite o valor da Gasolina: ")) 
+var alcool = parseFloat(prompt("Agora digite o valor do Etanol: ")) 
+var barato = parseFloat(alcool / gasolina) 
+if (barato.toFixed(2) < "0.70") {
+        alert("O valor é: " + barato.toFixed(2) + " sendo assim vale a pena abastecer com ETANOL!")
+    }
+    if (barato.toFixed(2) > "0.70") {
+        alert('O valor é: ' + barato.toFixed(2) + " sendo assim vale a pena abastecer com GASOLINA!")
+    }
+    if (barato.toFixed(2) == "0.70") {
+        alert('O valor é: ' + barato.toFixed(2) + " sendo assim vale a pena abastecer com qualquer COMBUSTIVEL!")
+    }
+ alert("deseja fazer uma nova pesquisa?") 
+ alert("1 - SIM") 
+ alert('2 - NÃO') 
+ var resposta = (prompt("DIGITE O NÚMERO DA SUA OPÇÃO:")) 
+ console.clear()
+} while (resposta == "1") if (resposta > "2") {
+    alert("Opção inválida reinicie e tente novamente.")
+} {
+    alert("Obrigado até a próxima")
+}
+
+
+</script>

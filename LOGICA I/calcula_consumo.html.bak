@@ -1,0 +1,11 @@
+<meta charset "UTF-8">
+<h3> Etanol ou Gasolina? </h3>
+<script>
+var tanque = 40
+var caminhoComGasolina = 480
+var consumoDeGasolina =caminhoComGasolina/tanque
+document.write ("O consumo de Gasolina é " + consumoDeGasolina +" quilômentro por litro")
+var caminhoComEtanol = 300
+var consumoDeEtanol = caminhoComEtanol/tanque
+document.write ("<br>"+"O consumo de Etanol é " + consumoDeEtanol +" quilômentro por litro")
+</script>

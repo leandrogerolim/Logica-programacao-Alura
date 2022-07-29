@@ -1,0 +1,9 @@
+<meta charset = "UTF-8">
+
+<script>
+
+	document.write ("A idade do Leandro é: ");
+	document.write (18+12);
+	document.write ("A soma das idade é: " + (20+30+24+10+15+65)/6);
+	
+</script>

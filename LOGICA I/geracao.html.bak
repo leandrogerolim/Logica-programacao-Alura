@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<script>
+	function pulaLinha (){
+		document.write ("<br>")
+		document.write ("<br>")
+		
+}
+function mostra (){
+document.write ("Sabemos que no Brasil a Média para os casais terem filhos é de 28 anos.");
+pulaLinha ();
+document.write ("Com essa informação vamos calcular as gerações do Brasil desde 1500.");
+pulaLinha();
+
+var ano = (2021-1500);
+document.write ("Desde de o descobrimente do Brasil até hoje se passaram "+ano+ " anos.");
+pulaLinha ();
+
+var geracao = Math.round(ano/28);
+document.write ("Agora vamos dividir esse valor " +ano+ " pela media de gerações. ");
+pulaLinha ();
+document.write ("Essa é a quantidade de gerações: "+geracao+".");
+}
+mostra();
+</script>
+
+<meta charset="UTF-8">
+
+    <script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2016; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+    </script>
